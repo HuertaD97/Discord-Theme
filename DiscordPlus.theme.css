@@ -14,12 +14,12 @@
    To use an image from your computer, upload it somewhere first, copy its link, then paste it below. */
   --dplus-backdrop: url(https://github.com/HuertaD97/Discord-Theme/blob/main/094NR204CMXLSWE04.jpg?raw=true);
 
-/* Accent color, used to decorate the UI with colors. */
-  --dplus-accent-color-hue: 320;
-  --dplus-accent-color-saturation: 60%;
-  --dplus-accent-color-lightness: 31%;
+/* Accent color, used to decorate the UI with colors. 320 Default */
+  --dplus-accent-color-hue: 227;
+  --dplus-accent-color-saturation: 58%;
+  --dplus-accent-color-lightness: 65%;
 
-/* Foreground color: For things like text and icons. */
+/* Foreground color: For things like text and icons. base 210 --- links 197  sat 1 - 1 */
   --dplus-foreground-color-hue-base: 210;
   --dplus-foreground-color-hue-links: 197;
   --dplus-foreground-color-saturation-amount: 1;
@@ -28,8 +28,8 @@
 /* Background color: Covers the backdrop so the app is easier to read. */
   --dplus-background-color-hue: 320;
   --dplus-background-color-saturation-amount: 1;
-  --dplus-background-color-lightness-amount: 1;
-  --dplus-background-color-alpha: 0.8;
+  --dplus-background-color-lightness-amount: .1;
+  --dplus-background-color-alpha: .7;
 }
 
 /* If you use light theme, you can give it unique settings that are separate from dark theme. */
@@ -42,13 +42,13 @@
   
   --dplus-foreground-color-hue-base: 210;
   --dplus-foreground-color-hue-links: 197;
-  --dplus-foreground-color-saturation-amount: 1;
-  --dplus-foreground-color-lightness-amount: 1;
+  --dplus-foreground-color-saturation-amount: .1;
+  --dplus-foreground-color-lightness-amount: 0;
 
   --dplus-background-color-hue: 320;
   --dplus-background-color-saturation-amount: 1;
   --dplus-background-color-lightness-amount: 1;
-  --dplus-background-color-alpha: 0.8;
+  --dplus-background-color-alpha: 0.5;
 }
 
 :root {
@@ -61,25 +61,25 @@
 /* Round corner sizes, measured in pixel radius.
 Set avatar/server radius to 50% to make them circular.
    UI radius must be in pixels, otherwise things break. */
-  --dplus-radius-ui: 10px;
-  --dplus-radius-avatar: 20%;
-  --dplus-radius-server: 20%;
+  --dplus-radius-ui: 15px;
+  --dplus-radius-avatar: 50%;
+  --dplus-radius-server: 30%;
 
 /* This decides how much breathing room there should be between things like buttons and content. */
   --dplus-spacing-ui: 10px;
 
 /* This sets how much space there should be between the app contents and the edges of the window. It also affects the distance between major UI elements, such as the server list to the channel list and channel list to the chat. */
-   --dplus-spacing-app: 10px;
+   --dplus-spacing-app: 8px;
 
 /* Size of user and server icons */
---dplus-icon-avatar-chat: 64px;
+--dplus-icon-avatar-chat: 32px;
 --dplus-icon-avatar-list: 32px;
 --dplus-icon-avatar-profile: 80px;
 
---dplus-icon-server-sidebar: 48px;
+--dplus-icon-server-sidebar: 50px;
 --dplus-icon-server-list: 32px;
 
 /* The Home icon on the top left */
---dplus-icon-home-dark: url(https://plusinsta.github.io/discord-plus/assets/discord/home_dark.svg);
---dplus-icon-home-light: url(https://plusinsta.github.io/discord-plus/assets/discord/home_light.svg);
+--dplus-icon-home-dark: url(https://github.com/HuertaD97/Discord-Theme/blob/main/EG7R984WFEW899GUJ.png?raw=true);
+--dplus-icon-home-light: url(https://github.com/HuertaD97/Discord-Theme/blob/main/EG7R984WFEW899GUJ.png?raw=true);
 }
